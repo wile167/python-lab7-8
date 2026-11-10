@@ -9,7 +9,13 @@ ENV/
 
 # Database & secrets
 db.sqlite3
+flask_shop.db
 .env
+
+# Pytest & coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
 
 # IDE settings
 .vscode/
